@@ -46,7 +46,7 @@ file { '/data/web_static/releases/test/index.html':
 		<title>Home - AirBnB Clone</title>
 	</head>
 	<body>
-		<h1>Welcome to AirBnB!</h1>
+		<h1>Holberton School!</h1>
 	<body>
 </html>
 ",
@@ -89,7 +89,7 @@ file { '/etc/nginx/sites-available/default':
 		try_files \$uri \$uri/ =404;
 	}
 	if (\$request_filename ~ redirect_me){
-		rewrite ^ https://sketchfab.com/bluepeno/models permanent;
+		rewrite ^ https://github.com/MontaCoder  permanent;
 	}
 	location = /404.html {
 		root /var/www/error/;
